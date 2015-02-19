@@ -10,7 +10,7 @@ Moving from computer to computer, this is much easier to just pull and all is go
 ## Overall Setup
 
 * Pathogen is used to keep all the Plugins in separete folders
-* Each foldere in /bundle is a git submodule that can be update invidually
+* Each foldere in /bundle is a git submodule that can be updated invidually
 
 ## Useful Commands
 Creates a submodule (execute inside /bundle/)
