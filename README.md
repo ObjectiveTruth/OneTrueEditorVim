@@ -1,7 +1,7 @@
 # OneTrueEditorVim
 
 My personal Vim configuration for windows
-Place in c:/Users/<Username>/ directory
+Place in c:/Users/Username/ directory
 
 ## Motivation
 
