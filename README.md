@@ -1,22 +1,18 @@
 # OneTrueEditorVim
-----
 
 My personal Vim configuration for windows
 Place in c:/Users/<Username>/ directory
 
 ## Motivation
-----
 
 Moving from computer to computer, this is much easier to just pull and all is good
 
 ## Overall Setup
-----
 
 * Pathogen is used to keep all the Plugins in separete folders
 * Each foldere in /bundle is a git submodule that can be update invidually
 
 ## Useful Commands
-----
 Creates a submodule (execute inside /bundle/)
 
     git submodule add <git repository path>
@@ -31,7 +27,6 @@ Or you can do this when you pull
     git clone https://github.com/ObjectiveTruth/OneTrueEditorVim.git --recursive
 
 ## License
-----
 The MIT License (MIT)
 
 Copyright (c) 2015
