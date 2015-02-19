@@ -2,7 +2,7 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 let g:vim_markdown_folding_disabled=1
-
+autocmd BufNewFile,BufReadPost *.md set filetype=markdown
 sourc $VIMRUNTIME/vimrc_example.vim
 source $VIMRUNTIME/mswin.vim
 behave mswin
