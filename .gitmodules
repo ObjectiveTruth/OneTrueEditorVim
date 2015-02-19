@@ -10,3 +10,6 @@
 [submodule "vimfiles/bundle/vim-repeat"]
 	path = vimfiles/bundle/vim-repeat
 	url = https://github.com/tpope/vim-repeat.git
+[submodule "vimfiles/bundle/sparkup"]
+	path = vimfiles/bundle/sparkup
+	url = https://github.com/rstacruz/sparkup.git
