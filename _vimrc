@@ -6,8 +6,13 @@ autocmd BufNewFile,BufReadPost *.md set filetype=markdown
 sourc $VIMRUNTIME/vimrc_example.vim
 source $VIMRUNTIME/mswin.vim
 behave mswin
+" Sets up all the tabs to be spaces (soft-tabs)
+set expandtab
+set tabstop=4
+set shiftwidth=4
 
 set lines=80 columns=100
+filetype plugin on
 set number
 set diffexpr=MyDiff()
 function MyDiff()

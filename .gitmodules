@@ -13,3 +13,6 @@
 [submodule "vimfiles/bundle/sparkup"]
 	path = vimfiles/bundle/sparkup
 	url = https://github.com/rstacruz/sparkup.git
+[submodule "vimfiles/bundle/emmet-vim"]
+	path = vimfiles/bundle/emmet-vim
+	url = https://github.com/mattn/emmet-vim.git
