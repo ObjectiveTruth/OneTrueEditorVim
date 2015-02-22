@@ -13,7 +13,17 @@ set shiftwidth=4
 
 set lines=80 columns=100
 filetype plugin on
+" Remaps ESC to jj
+imap jj <Esc>
+
+" Sets the line number
 set number
+
+" removes highlighting search terms after you hit enter after /
+:set nohlsearch
+
+" maps cntrol+n to open NERDTree
+map <C-n> :NERDTreeToggle<CR>
 set diffexpr=MyDiff()
 function MyDiff()
   let opt = '-a --binary '
