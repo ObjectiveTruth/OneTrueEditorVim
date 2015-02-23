@@ -27,6 +27,10 @@ map <C-n> :NERDTreeToggle<CR>
 
 "Set current directory to current file
 set autochdir
+
+" rotate13 mapped to F3, equivalent to ggg?G pressed fast
+map <F3> ggVGg?
+
 set diffexpr=MyDiff()
 function MyDiff()
   let opt = '-a --binary '
