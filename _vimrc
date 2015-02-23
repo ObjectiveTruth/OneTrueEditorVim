@@ -24,6 +24,9 @@ set number
 
 " maps cntrol+n to open NERDTree
 map <C-n> :NERDTreeToggle<CR>
+
+"Set current directory to current file
+set autochdir
 set diffexpr=MyDiff()
 function MyDiff()
   let opt = '-a --binary '
