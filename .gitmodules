@@ -16,3 +16,6 @@
 [submodule "vimfiles/bundle/emmet-vim"]
 	path = vimfiles/bundle/emmet-vim
 	url = https://github.com/mattn/emmet-vim.git
+[submodule "vimfiles/bundle/vim-scala"]
+	path = vimfiles/bundle/vim-scala
+	url = https://github.com/derekwyatt/vim-scala.git
