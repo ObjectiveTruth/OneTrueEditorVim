@@ -11,13 +11,22 @@ set expandtab
 set tabstop=4
 set shiftwidth=4
 
-set lines=80 columns=100
+" Lines/Columns meant for half the screen 
+set lines=62 columns=110
+
+" sets the fonts
+set guifont=Lucida_Console:h10
+
 filetype plugin on
+
 " Remaps ESC to jj
 imap jj <Esc>
 
 " Sets the line number
 set number
+
+" sets the colorscheme
+colors molokai
 
 " removes highlighting search terms after you hit enter after /
 :set nohlsearch
