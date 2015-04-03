@@ -12,7 +12,8 @@ set tabstop=4
 set shiftwidth=4
 
 " Lines/Columns meant for half the screen 
-set lines=62 columns=110
+" Only use this in windows. In SSH ubuntu, it will blow up
+"set lines=62 columns=110
 
 " sets the fonts
 set guifont=Lucida_Console:h10
